@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    
+    <title>Calculadora</title>
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="calculator, html, css, javascript">
+    <meta name="description" content="Calculadora con HTML, CSS y JAVASCRIPT">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/style.css">
+  
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/funcionesUtilidad.js"></script>
+    <script src="./scripts/handlerButton.js"></script>
+
+    <link rel="shortcut icon" href="icono.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <main class="mainContainer">
+        <div class="calculadora">
+            <!-- Cuadro de muestra de las operaciones
+                y la previsualizacion del resultado. -->
+
+            <output name="salidaTexto" id="textOperaciones"></output>
+            <div class="cajaResult">
+                <span class="signoIgual_PreResult">=</span>
+                <output id="preResult"></output>
+            </div>
+            <!-- Seccion de botones -->
+
+            <div class="cajaBotones">
+                <button value="1" class="btnNum">1</button>
+                <button value="2" class="btnNum">2</button>
+                <button value="3" class="btnNum">3</button>
+                <button value="4" class="btnNum">4</button>
+                <button value="5" class="btnNum">5</button>
+                <button value="6" class="btnNum">6</button>
+                <button value="7" class="btnNum">7</button>
+                <button value="8" class="btnNum">8</button>
+                <button value="9" class="btnNum">9</button>
+                <button value="10" class="btnNum">0</button>
+                <button value="11" id="sum" class="btnOpr">+</button>
+                <button value="12" id="rest" class="btnOpr">-</button>
+                <button value="13" id="mult" class="btnOpr">×</button>
+                <button value="14" id="div" class="btnOpr">÷</button>
+                <button value="15" id="punto" class="btnOpr">.</button>
+                <button value="16" id="porcent" class="btnOpr">%</button>
+                <button value="17" id="reset" class="btnOpr">C</button>
+                <button value="18" id="del" class="btnOpr">DEL</button>
+                <button value="19" id="igual" class="btnOpr">=</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
