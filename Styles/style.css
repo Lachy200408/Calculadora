@@ -47,6 +47,7 @@ html, body, main{
 #textOperaciones {
 
     width: min(100vw, 600px);
+    padding-inline: 32px;
 
     display: block;
 
@@ -66,6 +67,7 @@ html, body, main{
 .cajaResult{
 
     width: min(100vw, 600px);
+    padding-inline: 32px;
 
 }
 
